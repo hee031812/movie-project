@@ -64,3 +64,6 @@ const searchMovies = async () => {
 <input type="search" v-model="searchKeyword" placeholder="검색어를 입력해주세요" @keyup.enter="searchMovies">
 <button type="submit" @click="searchMovies">검색</button>
 ```
+
+### Components 시키기
+react 처럼 동일하게 넣어주면 된다.
