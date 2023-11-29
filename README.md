@@ -65,5 +65,10 @@ const searchMovies = async () => {
 <button type="submit" @click="searchMovies">검색</button>
 ```
 
-### Components 시키기
-react 처럼 동일하게 넣어주면 된다.
+### 포스트맨 사용법
+사이트에서 가져온 주소를 작성한다.
+api-key를 주소 방식대로 입력해서 아래 정보를 가져오는지 확인한다.
+
+### Detail view 작업
+`movieInfoFetch` 영화 정보를 가져오는 비동기 함수를 사용하였다. 
+`credits`에 크레딧 정보를 저장한 후에 등장인물 목록을 가져오는 `getPersonCredits` 함수를 사용하였다.

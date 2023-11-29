@@ -67,11 +67,17 @@
             color: #ffffff;
             font-weight: 900;
             border: 1px solid #fff;
+            position: relative;
 
             span {
                 font-size: 12px;
                 align-content: center;
                 justify-content: center;
+                position: absolute;
+                right: 5px;
+                top: 0;
+                color: #be0000;
+
             }
         }
 
