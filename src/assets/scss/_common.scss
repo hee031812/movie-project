@@ -32,19 +32,7 @@ body {
             background-color: #00000000;
         }
 
-        &::after {
-            content: '';
-            width: 80px;
-            height: 80px;
-            background: #00000095 url(../img/icon/play.svg) no-repeat center;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            border-radius: 50%;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
+        &::after {}
 
         &:hover::after {
             opacity: 1;

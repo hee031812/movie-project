@@ -1,7 +1,9 @@
 ### vue 사용하여 movie 만들기   
 
 <img width="1903" alt="movie" src="https://github.com/hee031812/recycle-project/assets/144635622/15412a24-df67-4773-9803-71b38fa3edfb">
+
 1. 우선 사이트[TMDB](https://www.themoviedb.org/?language=ko-KR)에 들어가서 키값을 받아온다.   
+
 ### 설치하기   
 `npm create vue@latest`   
 ```bush   

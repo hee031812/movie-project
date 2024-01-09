@@ -15,7 +15,8 @@ const router = createRouter({
       name: 'detail',
       component: DetailView,
       props: true
-    }
+    },
+
   ]
 })
 
