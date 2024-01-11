@@ -2,6 +2,20 @@
 
 <img width="1903" alt="movie" src="https://github.com/hee031812/recycle-project/assets/144635622/15412a24-df67-4773-9803-71b38fa3edfb">
 
+# 주요 기능
+영화 검색: TMDB API를 사용하여 최신 및 인기 영화 정보를 검색하고 표시합니다. 사용자는 다양한 영화를 검색하고 상세 정보를 볼 수 있습니다.
+컴포넌트 기반 구조: Vue.js를 사용한 컴포넌트 기반의 접근 방식으로, 사이트의 각 부분을 독립적이고 재사용 가능한 컴포넌트로 구성합니다.
+SPA(Single Page Application): Vue Router를 활용하여 싱글 페이지 애플리케이션의 네비게이션을 구현합니다.
+상태 관리: Vuex를 사용하여 애플리케이션의 상태를 중앙화하고 효율적으로 관리합니다.
+비동기 처리: HTTP 클라이언트를 사용하여 TMDB API에 요청을 보내고, 비동기적으로 데이터를 처리하여 사용자에게 실시간 정보를 제공합니다.
+
+# 설명
+이 프로젝트는 Vue.js를 사용하여 구축된 모던 웹 애플리케이션입니다.    
+영화 정보를 검색하고 표시하는 기능, 컴포넌트 기반의 구조, SPA 구현, 상태 관리, 그리고 비동기 데이터 처리 등의 기능을 제공합니다.   
+개발 환경은 Vue.js, Scss, TMDB API, 그리고 다양한 빌드 및 개발 도구로 구성되어 있습니다.   
+
+
+
 1. 우선 사이트[TMDB](https://www.themoviedb.org/?language=ko-KR)에 들어가서 키값을 받아온다.   
 
 ### 설치하기   
@@ -68,6 +82,7 @@ const searchMovies = async () => {
 <input type="search" v-model="searchKeyword" placeholder="검색어를 입력해주세요" @keyup.enter="searchMovies">
 <button type="submit" @click="searchMovies">검색</button>
 ```
+
 
 ### 포스트맨 사용법
 사이트에서 가져온 주소를 작성한다.
